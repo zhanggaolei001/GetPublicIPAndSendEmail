@@ -51,7 +51,7 @@ namespace GetMyIpAndSendEmailToMe
                     Console.WriteLine(e);
                     Mailbox(myEmail, e.Message);
                 }
-                Thread.Sleep(1000 * 60);//一小时一次
+                Thread.Sleep(1000 * 60*60);//一小时一次
             }
         }
 
